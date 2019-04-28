@@ -1,3 +1,5 @@
+![screen](screen.png)
+
 # highlight.vim
 
 This vim plugin loads the match patterns from a file which is a serialized
