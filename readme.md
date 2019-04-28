@@ -2,6 +2,9 @@
 
 # highlight.vim
 
+Lost in various `#ifdef` macro definition in a large c programs like u-boot or
+Linux? This plugin may help out of pain.
+
 This vim plugin loads the match patterns from a file which is a serialized
 dictionary with the file name as key and pattern as value. When a buffer is
 loaded, the plugin will search the dictionary and find the pattern and set the
@@ -22,7 +25,7 @@ The content of the files is like this:
 
 The pattern format like `\%1l\|\%3l\|\%5l`  means match line 1 or line 3 or line
 5, where '\' is the escape character for `%` and `|`.  using `:help pattern` to
-find the more details.
+find more details.
 
 Theoretically you may add any patterns to the key values and vim will
 highlight it for you.
