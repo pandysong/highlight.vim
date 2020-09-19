@@ -72,7 +72,7 @@ Where lines.txt looks like:
 
 Each line is with the file path name followed by `:` and then the line number.
 
-The converted file could not be loaded with command `HighlightAdd`. Note that this
+The converted file could now be loaded with command `HighlightAdd`. Note that this
 command could be called multiple times to load the different databases.
 
 ## HighlightReset
